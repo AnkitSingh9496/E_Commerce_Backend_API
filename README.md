@@ -1,4 +1,19 @@
 # E-Commerce API Documentation
+This is a backend API for managing products in an eCommerce application developed using Node.js, TypeScript, Express, PostgreSQL, and TypeORM. The API includes endpoints for fetching, creating, updating, and deleting products with strict type safety.
+
+## Features:
+- Type-safe API using TypeScript.
+- Product management with pagination, filters, and search capabilities.
+- Validation of input fields before insertion into the database.
+- CRUD operations on products with proper API response and error handling.
+
+## Prerequisites:
+- Node.js
+- PostgreSQL (using pgAdmin 4 or any PostgreSQL client)
+- TypeScript
+
+## Database:
+I have uploaded a database.md file in this repository that contains the SQL queries I ran on the PostgreSQL pgAdmin 4 interface, as well as the structure and relationship of the tables (e.g., product, category, user).
 
 # ScreenShots of API Testing
 ### 1. GET
