@@ -1,5 +1,22 @@
 # E-Commerce API Documentation
 
+# ScreenShots of API Testing
+### 1. GET
+![Screenshot 2025-01-30 003025](https://github.com/user-attachments/assets/ebc64cb4-8a40-49a2-8adc-22c86affb745)
+
+### 2. GET by ID
+![Screenshot (796)](https://github.com/user-attachments/assets/f20fde19-8781-4027-81f6-0b67523e65af)
+
+### 3. PUT
+![Screenshot 2025-01-30 002807](https://github.com/user-attachments/assets/a65b4409-74d7-4a26-922d-a03139ac8c44)
+
+### 4. POST
+![Screenshot 2025-01-30 002950](https://github.com/user-attachments/assets/85886c40-403b-4c5e-9e1a-65d9daf7b90f)
+
+### 5. DELETE
+![Screenshot (797)](https://github.com/user-attachments/assets/97831374-1dcd-4ce9-9fae-42d33be4278b)
+
+
 ## Base URL
 ```
 http://localhost:3000
