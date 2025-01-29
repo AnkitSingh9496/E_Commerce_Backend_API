@@ -1,3 +1,4 @@
+
 -- Connect to PostgreSQL and create database
 CREATE DATABASE ecommerce;
 
@@ -69,4 +70,3 @@ INSERT INTO product (name, price, description, image_url, tag, category_id) VALU
 CREATE INDEX idx_product_name ON product USING GIN (to_tsvector('english', name));
 CREATE INDEX idx_product_tag ON product(tag);
 CREATE INDEX idx_product_price ON product(price);
-
