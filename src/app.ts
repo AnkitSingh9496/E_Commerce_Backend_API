@@ -14,7 +14,6 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Add error logging middleware
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
     console.error('Error details:', err);
     res.status(500).json({ message: err.message || "Internal server error" });
@@ -22,7 +21,6 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
 
 app.use("/products", productRoutes);
 
-// Modified database connection and server start
 AppDataSource.initialize()
     .then(() => {
         console.log("Database connected successfully");
