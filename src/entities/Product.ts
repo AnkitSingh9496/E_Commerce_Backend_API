@@ -34,7 +34,7 @@ export class Product {
     tag!: string;
 
     @ManyToOne(() => Category, category => category.products, { nullable: true })
-    @JoinColumn({ name: 'category_id' })  // Specify the column name here to match the DB
+    @JoinColumn({ name: 'category_id' }) 
     category?: Category;
 
     @CreateDateColumn()
